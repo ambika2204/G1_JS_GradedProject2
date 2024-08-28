@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="resume-container">
+        <h2>Applicant Details</h2>
+        <div id="applicant-details">
+            <p><strong>Name:</strong> <span id="name"></span></p>
+            <p><strong>Email:</strong> <span id="email"></span></p>
+            <p><strong>Job Applied For:</strong> <span id="job"></span></p>
+        </div>
+        <div class="navigation-buttons">
+            <button id="prevButton" style="display: none;">Previous</button>
+            <button id="nextButton" style="display: none;">Next</button>
+        </div>
+        <div class="filter">
+            <label for="searchJob">Filter by Job:</label>
+            <input type="text" id="searchJob" placeholder="Enter job title">
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
